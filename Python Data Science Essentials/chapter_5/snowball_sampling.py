@@ -28,10 +28,10 @@ def snowball_sampling(graph, max_depth, central_name, sampling_rate=1.0):
     graph.add_node(central_name)
 
     for depth in range(max_depth):
-        print "Reching depth", depth
+        print ("Reching depth", depth)
         nodes_that_depth = [node for node in graph.nodes() if
                             nx.shortest_path_length(graph, source=central_name, target=node) == depth]
-        print " new nodes to investigate:", nodes_that_depth
+        print (" new nodes to investigate:", nodes_that_depth)
 
         for node in nodes_that_depth:
 
