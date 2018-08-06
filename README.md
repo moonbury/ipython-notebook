@@ -1,2 +1,4 @@
-# ipython notebook
-This is my ipython notebook collection that I learned from various machine learning books or related online articles.
+# notebook
+My Machine Learning iPython Notebook Repository.
+
+Please run it in Google Datalab under python3 environment.

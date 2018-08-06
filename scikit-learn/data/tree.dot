@@ -1,0 +1,7 @@
+digraph Tree {
+0 [label="plays fetch <= 0.5000\nentropy = 0.985228136034\nsamples = 14", shape="box"] ;
+1 [label="entropy = 0.7642\nsamples = 9\nvalue = [ 7.  2.]", shape="box"] ;
+0 -> 1 ;
+2 [label="entropy = 0.7219\nsamples = 5\nvalue = [ 1.  4.]", shape="box"] ;
+0 -> 2 ;
+}
